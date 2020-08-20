@@ -1,6 +1,8 @@
 #ifndef __al_included_allegro5_allegro_image_h
 #define __al_included_allegro5_allegro_image_h
 
+#include "allegro5/base.h"
+
 #if (defined ALLEGRO_MINGW32) || (defined ALLEGRO_MSVC) || (defined ALLEGRO_BCC32)
    #ifndef ALLEGRO_STATICLINK
       #ifdef ALLEGRO_IIO_SRC
@@ -30,6 +32,7 @@ extern "C" {
 
 
 ALLEGRO_IIO_FUNC(bool, al_init_image_addon, (void));
+ALLEGRO_IIO_FUNC(bool, al_is_image_addon_initialized, (void));
 ALLEGRO_IIO_FUNC(void, al_shutdown_image_addon, (void));
 ALLEGRO_IIO_FUNC(uint32_t, al_get_allegro_image_version, (void));
 
