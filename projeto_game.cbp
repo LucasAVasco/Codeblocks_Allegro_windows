@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projeto_game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projeto_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projeto_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="libraries/Allegro/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="libraries/Allegro/include/" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-mt.a" />
+			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-static-mt.a" />
+			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-static-mt-debug.a" />
+			<Add directory="libraries/Allegro/lib" />
+			<Add directory="libraries/Allegro/bin" />
+		</Linker>
+		<Unit filename="libraries/Allegro/include/AL/al.h" />
+		<Unit filename="libraries/Allegro/include/AL/alc.h" />
+		<Unit filename="libraries/Allegro/include/AL/alext.h" />
+		<Unit filename="libraries/Allegro/include/AL/efx-creative.h" />
+		<Unit filename="libraries/Allegro/include/AL/efx.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/all.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/assert.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/callback.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/export.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/format.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/metadata.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/ordinals.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/stream_decoder.h" />
+		<Unit filename="libraries/Allegro/include/FLAC/stream_encoder.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/alcompat.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/alinline.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro5.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_acodec.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_audio.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_color.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_direct3d.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_font.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_image.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_iphone.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_memfile.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_native_dialog.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_opengl.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_osx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_physfs.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_primitives.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_ttf.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/allegro_windows.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/altime.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/base.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/bitmap.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/bitmap_draw.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/bitmap_io.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/bitmap_lock.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/blender.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/color.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/config.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/debug.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/display.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/drawing.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/error.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/events.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/file.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/fixed.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/fmaths.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/fshook.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/fullscreen_mode.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_aatree.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_acodec_cfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_atomicops.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_audio.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_audio_cfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_bitmap.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_blend.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_config.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_convert.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_debug.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_direct3d.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_display.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_driver.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_dtor.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_events.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_exitfunc.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_file.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_float.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_fshook.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_gp2xwiz.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_image.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_image_cfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_iphone.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_joystick.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_keyboard.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_list.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_memblit.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_memdraw.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_mouse.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_native_dialog.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_native_dialog_cfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_opengl.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_path.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_pixels.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_prim.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_prim_directx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_prim_opengl.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_prim_soft.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_system.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_thread.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_timer.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_tls.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_transform.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_tri_soft.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_ttf_cfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_vector.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_wunicode.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_x.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xcursor.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xdisplay.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xevents.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xfullscreen.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xglx_config.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xkeyboard.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xmouse.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xsystem.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/aintern_xwindow.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/alconfig.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/internal/bstrlib.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/joystick.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/keyboard.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/keycodes.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/memory.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/monitor.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/mouse.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/mouse_cursor.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/gl_ext_alias.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/gl_ext_api.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/gl_ext_defs.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/gl_ext_list.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/glx_ext_alias.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/glx_ext_api.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/glx_ext_defs.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/glx_ext_list.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/wgl_ext_alias.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/wgl_ext_api.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/wgl_ext_defs.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/GLext/wgl_ext_list.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/opengl/gl_ext.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/path.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintiphone.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintlnx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintosx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintunix.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintuthr.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintwin.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintwiz.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintwthr.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aintxglx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/albcc32.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aldmc.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aliphone.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/aliphonecfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/almngw32.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/almsvc.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alosx.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alosxcfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alplatf.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alucfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alunix.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alwatcom.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alwin.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alwiz.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/alwizcfg.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/astdbool.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/platform/astdint.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/system.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/threads.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/timer.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/tls.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/transformations.h" />
+		<Unit filename="libraries/Allegro/include/allegro5/utf8.h" />
+		<Unit filename="libraries/Allegro/include/dumb.h" />
+		<Unit filename="libraries/Allegro/include/freetype/config/ftconfig.h" />
+		<Unit filename="libraries/Allegro/include/freetype/config/ftheader.h" />
+		<Unit filename="libraries/Allegro/include/freetype/config/ftmodule.h" />
+		<Unit filename="libraries/Allegro/include/freetype/config/ftoption.h" />
+		<Unit filename="libraries/Allegro/include/freetype/config/ftstdlib.h" />
+		<Unit filename="libraries/Allegro/include/freetype/freetype.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftadvanc.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftbbox.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftbdf.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftbitmap.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftbzip2.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftcache.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftchapters.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftcid.h" />
+		<Unit filename="libraries/Allegro/include/freetype/fterrdef.h" />
+		<Unit filename="libraries/Allegro/include/freetype/fterrors.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftgasp.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftglyph.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftgxval.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftgzip.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftimage.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftincrem.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftlcdfil.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftlist.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftlzw.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftmac.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftmm.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftmodapi.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftmoderr.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftotval.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftoutln.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftpfr.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftrender.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftsizes.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftsnames.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftstroke.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftsynth.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftsystem.h" />
+		<Unit filename="libraries/Allegro/include/freetype/fttrigon.h" />
+		<Unit filename="libraries/Allegro/include/freetype/fttypes.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftwinfnt.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ftxf86.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/autohint.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftcalc.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftdebug.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftdriver.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftgloadr.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftmemory.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftobjs.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftpic.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftrfork.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftserv.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftstream.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/fttrace.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/ftvalid.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/internal.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/psaux.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/pshints.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svbdf.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svcid.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svgldict.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svgxval.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svkern.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svmm.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svotval.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svpfr.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svpostnm.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svpscmap.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svpsinfo.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svsfnt.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svttcmap.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svtteng.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svttglyf.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svwinfnt.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/services/svxf86nm.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/sfnt.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/t1types.h" />
+		<Unit filename="libraries/Allegro/include/freetype/internal/tttypes.h" />
+		<Unit filename="libraries/Allegro/include/freetype/t1tables.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ttnameid.h" />
+		<Unit filename="libraries/Allegro/include/freetype/tttables.h" />
+		<Unit filename="libraries/Allegro/include/freetype/tttags.h" />
+		<Unit filename="libraries/Allegro/include/freetype/ttunpat.h" />
+		<Unit filename="libraries/Allegro/include/ft2build.h" />
+		<Unit filename="libraries/Allegro/include/ogg/ogg.h" />
+		<Unit filename="libraries/Allegro/include/ogg/os_types.h" />
+		<Unit filename="libraries/Allegro/include/physfs.h" />
+		<Unit filename="libraries/Allegro/include/vorbis/codec.h" />
+		<Unit filename="libraries/Allegro/include/vorbis/vorbisenc.h" />
+		<Unit filename="libraries/Allegro/include/vorbis/vorbisfile.h" />
+		<Unit filename="libraries/Allegro/include/zconf.h" />
+		<Unit filename="libraries/Allegro/include/zlib.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
