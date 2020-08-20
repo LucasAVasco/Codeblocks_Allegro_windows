@@ -36,9 +36,10 @@
 			<Add directory="libraries/Allegro/include/" />
 		</ResourceCompiler>
 		<Linker>
-			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-mt.a" />
-			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-static-mt.a" />
-			<Add library="libraries/Allegro/lib/liballegro-5.0.10-monolith-static-mt-debug.a" />
+			<Add library="libraries/Allegro/lib/liballegro_monolith.dll.a" />
+			<Add library="libraries/Allegro/lib/liballegro_monolith-debug.dll.a" />
+			<Add library="libraries/Allegro/lib/liballegro_monolith-debug-static.a" />
+			<Add library="libraries/Allegro/lib/liballegro_monolith-static.a" />
 			<Add directory="libraries/Allegro/lib" />
 			<Add directory="libraries/Allegro/bin" />
 		</Linker>
