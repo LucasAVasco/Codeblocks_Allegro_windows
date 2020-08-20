@@ -1,8 +1,8 @@
-*Codeblocks Project with locally included Allegro library, for windows
+*Codeblocks Project with locally included Allegro library, for windows*
 
 All the dependences in this codeblocks project are locally include, so you can move you project to another windows machine (with codeblocks and mingw) and compile in that.
 
-*Donwload
+*Donwload*
 
 1-You can download the .zip file and decompress it. Now just use
 
