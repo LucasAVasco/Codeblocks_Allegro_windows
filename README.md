@@ -4,9 +4,9 @@ All the dependences in this codeblocks project are locally include, so you can m
 
 **Donwload**
 
-1-You can download the .zip file and decompress it. Now just use
+1. You can download the .zip file and decompress it. Now just use
 
 or
 
-2-You can clone the git repository. Just place the following command in the prompt: git clone https://github.com/LucasAVasco/Codeblocks_Allegro_windows
+2. You can clone the git repository. Just place the following command in the prompt: git clone https://github.com/LucasAVasco/Codeblocks_Allegro_windows
 
